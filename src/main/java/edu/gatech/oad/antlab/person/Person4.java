@@ -32,7 +32,7 @@ public class Person4 {
     private String calc(String input) {
       //Person 4 put your implementation here
         if (input == null) {
-            throw IllegalArgumentException("No word given");
+            return "";
         }
         String word = "";
         for (int i = 0; i < input.length(); i++) {
